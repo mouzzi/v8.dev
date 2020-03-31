@@ -102,6 +102,7 @@ self.ga = (...args) => {
 ga.l = Date.now();
 ga.q = [];
 ga('create', UA_ID, 'auto');
+ga('require', 'UA-65961526-1');
 ga('set', 'referrer', document.referrer.split('?')[0]);
 ga('send', 'pageview');
 const gaScript = document.createElement('script');
